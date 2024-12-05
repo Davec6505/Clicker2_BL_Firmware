@@ -1,0 +1,27 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MZ2048EFH100 -RA -C -Y -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111115 -fo200 -N"C:\Users\Git\Clicker2_BL_Firmware\Clicker2_BL.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -SP"C:\Users\Git\Clicker2_BL_Firmware\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -IP"C:\Users\Git\Clicker2_BL_Firmware\" "main.c" "Config.c" "USBdsc.c" "UHB_Driver.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble_MZ_EF.emcl" "__Lib_System_MZ_EF.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_FLASH_MZ.emcl" "__Lib_USB_MZ_HS.emcl"	 
+diagnostics: 0	122	Compilation Started	P32MZ2048EFH100.c
+diagnostics: 65825	123	Compiled Successfully	P32MZ2048EFH100.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 176	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	types.h
+diagnostics: 96	123	Compiled Successfully	main.c
+diagnostics: 0	122	Compilation Started	main.h
+diagnostics: 171	123	Compiled Successfully	Config.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 203	1505	Suspicious pointer conversion	USBdsc.c
+diagnostics: 203	123	Compiled Successfully	USBdsc.c
+diagnostics: 0	122	Compilation Started	types.h
+hint: 235	1354	argument may be out of range []	UHB_Driver.c
+diagnostics: 516	123	Compiled Successfully	UHB_Driver.c
+hint: 346	1164	Variable 'dataRx' has been eliminated by optimizer	UHB_Driver.c
+hint: 453	1164	Variable 'dataRx' has been eliminated by optimizer	UHB_Driver.c
+diagnostics: 0	127	All files Compiled in 250 ms	 
+hint: 0	1144	Used RX: 28 (88%)   Free RX: 4 (12%)	Used RX: 28 (88%)   Free RX: 4 (12%)
+hint: 0	1144	Static RAM (bytes): 17325   Dynamic RAM (bytes): 506957	Static RAM (bytes): 17325   Dynamic RAM (bytes): 506957
+hint: 0	1144	Used ROM (bytes): 39279 (2%)  Free ROM (bytes): 2057873 (98%)	Used ROM (bytes): 39279 (2%)  Free ROM (bytes): 2057873 (98%)
+hint: 0	1144	Used BOOTROM (bytes): 176 (0%)  Free BOOTROM (bytes): 146835 (100%)	Used BOOTROM (bytes): 176 (0%)  Free BOOTROM (bytes): 146835 (100%)
+diagnostics: 0	125	Project Linked Successfully	Clicker2_BL.mcp32
+hint: 1862	1004	Possible stack overflow: recursion or cross-calling detected.	__Lib_USB_MZ_HS.c
+diagnostics: 0	128	Linked in 594 ms	 
+diagnostics: 0	129	Project 'Clicker2_BL.mcp32' completed: 2281 ms	 
+diagnostics: 0	103	Finished successfully: 05 Dec 2024, 19:15:45	Clicker2_BL.mcp32
