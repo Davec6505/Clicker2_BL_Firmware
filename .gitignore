@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# mikroc specific
+*.log
+*.dbg
+*.ini
+*.dct
+*.bmk
+*.brk
+*.cfg
+*.dlt
+*.cp
+*.emcl
+
